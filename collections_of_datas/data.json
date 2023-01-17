@@ -1,0 +1,31 @@
+{
+    "setup":{
+        "web_driver_location" : "path",
+        "dict":{
+            "a":{
+                "id":"hello"
+            }
+        }
+    },
+    "login_page":{
+        "msg":"to login into",
+
+        
+        "id":"id",
+        "name":"name",
+        "xpath":"xpath",
+        "link_text":"LINK_TEXT",
+        "tag_name":"TAG_NAME",
+        "partial_link_text":"PARTIAL_LINK_TEXT",
+        "class_name":"CLASS_NAME",
+
+
+        "css_selector":"CSS_SELECTOR",
+        "send_key":"values",
+        "sleep":"2s"
+    }
+}
+
+
+
+

@@ -53,5 +53,3 @@ def get_stack(path):
         data.close()
     dict_data = json_to_dect(json.loads(read_data))
     return get_more(dict_data)
-
-print(get_stack("olx.json"))

@@ -16,7 +16,7 @@ run = True
 def take_video_rec():
 	resolution = (1920, 1080)
 	codec = cv2.VideoWriter_fourcc(*"XVID")
-	filename = "vid/Recording.avi"
+	filename = "vid/Recording.avi"  # this linke take's screen_rec but the given path is already exits it's save else it's not take screenshot for example('folder/img.png') the folder if exist the screenshot will save else it's not save
 	fps = 30.0
 	out = cv2.VideoWriter(filename, codec, fps, resolution)
 	while run:
@@ -152,10 +152,10 @@ def Make_test(path):
                                     # take Screenshot
                         if i.get('take') == "screenshot" :
                             print("\n\n\n\n\n\n\n\n\n\n\n\n\ntest\nnnscreen")
-                            driver.save_screenshot('pic.png') # this linke take's screen but the given path is already exits it's save else it's not take screenshot for example('folder/img.png') the folder if exist the screenshot will save else it's not save
+                            driver.save_screenshot('pic.png') # this linke take's screenshot but the given path is already exits it's save else it's not take screenshot for example('folder/img.png') the folder if exist the screenshot will save else it's not save
     run = False
     if orginal[0].get('run_and_wait') == 'true' :
         input("\n\n\nPress 'ctrl' + 'c' to close server")
 
 
-Make_test('olx.json')
+Make_test('C:/Users/nagip/Desktop/New_folder/collections_of_datas/olx.json')
