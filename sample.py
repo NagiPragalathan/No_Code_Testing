@@ -1,16 +1,28 @@
-from selenium import webdriver
-from selenium.webdriver.support.select import Select
+import sys
 import time
+import numpy
 
-driver = webdriver.Chrome("C:/Users/nagip/Desktop/New_folder/chromedriver.exe")
+from screen_recorder_sdk import screen_recorder
 
-driver.set_window_position()
-driver.get('http://www.toolsqa.com/automation-practice-form/')
-s1 = Select(driver.find_element_by_id('continents'))
 
-s1.select_by_visible_text('Europe')
+def main ():
+    screen_recorder.enable_dev_log ()
+    pid = int (sys.argv[1]) # pid == 0 means capture full screen
+    screen_recorder.init_resources (pid)
 
-for opt in s1.options:
-    print(opt.text)
-    s1.select_by_visible_text(opt.text)
-    time.sleep(10)
+    screen_recorder.get_screenshot (5).save ('test_before.png')
+
+    screen_recorder.start_video_recording ('video1.mp4', 30, 8000000, True)
+    time.sleep (5)
+    screen_recorder.get_screenshot (5).save ('test_during_video.png')
+    time.sleep (5)
+    screen_recorder.stop_video_recording ()
+
+    screen_recorder.start_video_recording ('video2.mp4', 30, 8000000, True)
+    time.sleep (5)
+    screen_recorder.stop_video_recording ()
+
+    screen_recorder.free_resources ()
+
+if __name__ == "__main__":
+    main ()

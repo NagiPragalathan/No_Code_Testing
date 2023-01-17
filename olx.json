@@ -2,7 +2,7 @@
     "setup":{
         "driver_path" : "C:/Users/nagip/Desktop/New_folder/chromedriver.exe",
         "get":"https://www.saucedemo.com/",
-        "window" : "maximize"
+        "screen_recorder":"true"
     },
     "login_testing":{
         "fill_user_name" : {
@@ -11,7 +11,9 @@
         },
         "fill_password":{
             "id":"password:sk",
-            "data":"secret_sauce"
+            "data":"secret_sauce",
+            "take":"screenshot"
+
         },
         "click_login_btn":{
             "id":"login-button:click"

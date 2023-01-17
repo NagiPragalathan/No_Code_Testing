@@ -3,14 +3,40 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 import time
+from PIL import Image
 from selenium.webdriver.support.ui import Select
 from Tools import SetupTools
+import pyautogui
+import cv2
+import numpy as np
+import threading
+
+run = True
+
+def take_video_rec():
+	resolution = (1920, 1080)
+	codec = cv2.VideoWriter_fourcc(*"XVID")
+	filename = "vid/Recording.avi"
+	fps = 30.0
+	out = cv2.VideoWriter(filename, codec, fps, resolution)
+	while run:
+		img = pyautogui.screenshot()
+		frame = np.array(img)
+		frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+		out.write(frame)
+		if cv2.waitKey(1) == ord('q'):
+			break
+	out.release()
+	cv2.destroyAllWindows()
+
+
 
 def action(element,action):
     if action == 'click':
         element.click()
 
 def Make_test(path):
+    global run
     get_ids = ['id','name','class','xpath']
     list_data = ['ls_id_clk','ls_name_clk','ls_xpath_clk']
 
@@ -30,7 +56,9 @@ def Make_test(path):
         driver.get(orginal[0].get('get'))
         if orginal[0].get('window') == 'maximize':
             driver.maximize_window()
-            
+    if orginal[0].get('screen_recorder') == 'true':            
+        t1 = threading.Thread(target=take_video_rec)
+        t1.start()
     for i in stack:
         time.sleep(1)
         for j in i.keys():
@@ -120,7 +148,14 @@ def Make_test(path):
                         if type(i.get('set_window_position')) == list :
                             pos = i.get('set_window_position')
                             driver.set_window_position(pos[0],pos[1])
-    input()
+
+                                    # take Screenshot
+                        if i.get('take') == "screenshot" :
+                            print("\n\n\n\n\n\n\n\n\n\n\n\n\ntest\nnnscreen")
+                            driver.save_screenshot('pic.png') # this linke take's screen but the given path is already exits it's save else it's not take screenshot for example('folder/img.png') the folder if exist the screenshot will save else it's not save
+    run = False
+    if orginal[0].get('run_and_wait') == 'true' :
+        input("\n\n\nPress 'ctrl' + 'c' to close server")
 
 
 Make_test('olx.json')
