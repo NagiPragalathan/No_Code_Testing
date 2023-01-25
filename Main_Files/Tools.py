@@ -27,7 +27,7 @@ class SetupTools:
             test_driver = webdriver.Chrome(service=BraveService(ChromeDriverManager(chrome_type=ChromeType.BRAVE).install()))
         elif driver == 'Firefox':
             test_driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-        elif driver == '':
+        elif driver == 'FirefoxService':
             test_driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
         elif driver == 'IE':
             test_driver = webdriver.Ie(IEDriverManager().install())

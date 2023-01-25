@@ -13,10 +13,11 @@
             "id":"password:sk",
             "data":"secret_sauce",
             "take":"screenshot"
-
         },
         "click_login_btn":{
-            "id":"login-button:click"
+            "code":"true",
+            "id":"login-button:click",
+            "python_code_path":"C:/Users/nagip/Desktop/New_folder/main.py@under_score(10)"
         }
     },
     "home_page":{
@@ -34,3 +35,4 @@
         }
     }
 }
+
