@@ -48,8 +48,9 @@ It is a work in progress, and it is not ready for production.
 install using the command: `pip install nctp`
 
 ## 2. Usage:
-
-`{ <br/>
+<hr/>
+<pre>
+{ <br/>
     "setup":{<br/>
         "driver_path" : "C:/Users/nagip/Desktop/New_folder/chromedriver.exe", <br/>
         "auto_install":"true", <br/>
@@ -57,8 +58,13 @@ install using the command: `pip install nctp`
         "get":"https://www.saucedemo.com/", <br/>
         "window" : "maximize" <br/>
     }<br/>
-}`
-It is the keyword mandatory to use in the NCTP
+}<br/>
+</pre>
+<hr/>
+It is the keyword mandatory to use in the NCTP.
+
+
+
 
 
     
