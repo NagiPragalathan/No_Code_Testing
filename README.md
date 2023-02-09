@@ -35,7 +35,9 @@ It is a work in progress, and it is not ready for production.
 
 </div>
 
-![image](https://user-images.githubusercontent.com/88650559/217775778-b5b8bfee-014e-4357-ba87-65b41eb9891b.png)
+<div>
+<img src="https://media3.giphy.com/media/9MbgJKNugBIi6QDwEf/200w.webp?cid=ecf05e474m3sg50anfj1rfi5m8628lnk3tqkd77089nsi4y8&rid=200w.webp&ct=g" height="400" />
+</div>
 
 
 
