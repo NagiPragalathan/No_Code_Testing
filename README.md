@@ -49,14 +49,14 @@ install using the command: `pip install nctp`
 
 ## 2. Usage:
 
-`{ 
-    "setup":{\n
-        "driver_path" : "C:/Users/nagip/Desktop/New_folder/chromedriver.exe", \n
-        "auto_install":"true", \n
-        "browser":"Opera", \n
-        "get":"https://www.saucedemo.com/", \n
-        "window" : "maximize" \n
-    }\n
+`{ <br/>
+    "setup":{<br/>
+        "driver_path" : "C:/Users/nagip/Desktop/New_folder/chromedriver.exe", <br/>
+        "auto_install":"true", <br/>
+        "browser":"Opera", <br/>
+        "get":"https://www.saucedemo.com/", <br/>
+        "window" : "maximize" <br/>
+    }<br/>
 }`
 It is the keyword mandatory to use in the NCTP
 
