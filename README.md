@@ -43,11 +43,20 @@ It is a work in progress, and it is not ready for production.
 <h2> Fear of coding the testing files use the NCTP to releive your complexity and upgrade your automation using NCTP for your application. </h2>
 </div>
 
-# Usage:
+# Setup:
 ## 1. Installation:
 install using the command: `pip install nctp`
 
-
+## 2. Usage:
+`{   
+    "setup":{
+        "driver_path" : "C:/Users/nagip/Desktop/New_folder/chromedriver.exe",
+        "auto_install":"true",
+        "browser":"Opera",  //
+        "get":"https://www.saucedemo.com/", //
+        "window" : "maximize" //
+    }`
+It is the keyword mandatory to use in the NCTP
 
 
     
