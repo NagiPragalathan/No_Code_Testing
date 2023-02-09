@@ -8,7 +8,6 @@
   </h3>
 </div>
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/NagiPragalathan/No_Code_Testing/main.py?branch=master)
 ![GitHub](https://img.shields.io/github/license/NagiPragalathan/No_Code_Testing?style=flat-square&logo=github)
 ![GitHub contributors](https://img.shields.io/github/contributors/NagiPragalathan/No_Code_Testing?logo=github&style=flat-square)
 ![GitHub top language](https://img.shields.io/github/languages/top/NagiPragalathan/No_Code_Testing?style=flat-square)
