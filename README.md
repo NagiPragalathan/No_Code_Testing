@@ -57,6 +57,8 @@ install using the command: `pip install nctp`
         "browser":"Opera", <br/>
         "get":"https://www.saucedemo.com/", <br/>
         "window" : "maximize" <br/>
+        "screen_recorder":"true",
+        "run_amd_wait":"true"
     }<br/>
 }<br/>
 </pre>
