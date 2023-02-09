@@ -122,5 +122,46 @@ It is the keyword mandatory to use in the NCTP.
  }
 </pre>
 
+### Click the list of Elements line by line at a time
+list_data = ['ls_id_clk','ls_name_clk','ls_xpath_clk']
+
+<pre>
+{   
+    "setup":{
+        "driver_path" : "C:/Users/nagip/Desktop/New_folder/chromedriver.exe",
+        "auto_install":"true",
+        "browser":"Opera",  //
+        "get":"https://www.saucedemo.com/", //
+        "window" : "maximize" //
+    },
+    "login_testing":{
+        "fill_user_name" : {
+            "id" : "user-name:sk:minimize",
+            "data" : "standard_user"
+        },
+        "fill_password":{
+            "id":"password:sk",
+            "data":"secret_sauce"
+        },
+        "click_login_btn":{
+            "id":"login-button:click"
+        }
+    },
+    "home_page":{
+        "ls_id_clk" : ["add-to-cart-sauce-labs-backpack","add-to-cart-sauce-labs-bike-light","add-to-cart-sauce-labs-fleece-jacket"],
+        "ls_name_clk" : ["add-to-cart-test.allthethings()-t-shirt-(red)","add-to-cart-sauce-labs-bolt-t-shirt","add-to-cart-sauce-labs-onesie"]
+    },
+    "view_cart":{
+        "select_select_box":{
+            "xpath":"//*[@id='header_container']/div[2]/div[2]/span/select:select_by_index@2"   
+        },
+        "nav_to_view_cart":{
+            "xpath": "//*[@id='shopping_cart_container']/a:click:minimize",
+            "window":  "maximize"
+        }
+    }
+}
+</pre>
+
 
     
