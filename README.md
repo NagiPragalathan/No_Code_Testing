@@ -65,8 +65,27 @@ install using the command: `pip install nctp`
 <hr/>
 It is the keyword mandatory to use in the NCTP.
 
-
-
+1. `driver_path`: give the location of the selenium chrome driver path.
+2. `auto_install`: This key is used to download the chrome driver automatically and install it.
+3. `browser`: The browser that you recommend for the auto install.
+4. `get`: The URL of the landing page.
+5. `window`: Always recommended to use the maximize one. Minimize also can be used if needed.
+6. `screen_recorder`: It records the testing from beginning to end.
+7. `run_and_wait`: It waits  the window of the browser to run the program.
+8. Auto_install can run the folowing browsers:
+<pre>
+        1. Chrome
+        2. ChromeService
+        3. Brave
+        4. BraveService
+        5. Firefox
+        6. FirefoxService
+        7. IE
+        8. IEService
+        9. Edge
+        10. EdgeService
+        11. Opera
+</pre>
 
 
     
