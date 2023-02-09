@@ -95,5 +95,33 @@ It is the keyword mandatory to use in the NCTP.
 'xpath': It get the xpath elements using this keyword.
 </pre>
 
+### Examples:
+<pre>
+
+
+{   
+    "setup":{
+        "driver_path" : "C:/Users/nagip/Desktop/New_folder/chromedriver.exe",
+        "auto_install":"true",
+        "browser":"Opera",  //
+        "get":"https://www.saucedemo.com/", //
+        "window" : "maximize" //
+    },
+    "login_testing":{
+        "fill_user_name" : {
+            "id" : "user-name:sk:minimize",
+            "data" : "standard_user"
+        },
+        "fill_password":{
+            "id":"password:sk",
+            "data":"secret_sauce"
+        },
+        "click_login_btn":{
+            "id":"login-button:click"
+        }
+    },
+ }
+</pre>
+
 
     
