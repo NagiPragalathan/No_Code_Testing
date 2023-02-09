@@ -12,7 +12,7 @@
 ![GitHub](https://img.shields.io/github/license/NagiPragalathan/No_Code_Testing?style=flat-square&logo=github)
 ![GitHub contributors](https://img.shields.io/github/contributors/NagiPragalathan/No_Code_Testing?logo=github&style=flat-square)
 ![GitHub top language](https://img.shields.io/github/languages/top/NagiPragalathan/No_Code_Testing?style=flat-square)
-[![Telegram](https://img.shields.io/badge/telegram-Kakarot-yellow.svg?logo=telegram)](https://t.me/nagipragalathan)
+[![Telegram](https://img.shields.io/badge/telegram-nagipragalathan-yellow.svg?logo=telegram)](https://t.me/nagipragalathan)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 [![Read FAQ](https://img.shields.io/badge/Ask%20Question-Read%20FAQ-000000)](https://www.newton.so/view?tags=nctp)
 ![GitHub Repo stars](https://img.shields.io/github/stars/NagiPragalathan/No_Code_Testing?style=social)
@@ -35,9 +35,8 @@ It is a work in progress, and it is not ready for production.
 
 </div>
 
+![image](https://user-images.githubusercontent.com/88650559/217775778-b5b8bfee-014e-4357-ba87-65b41eb9891b.png)
+
 
 
     
-
-https://giphy.com/gifs/quixyofficial-god-help-me-quixy-us-9MbgJKNugBIi6QDwEf
-
