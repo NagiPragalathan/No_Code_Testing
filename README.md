@@ -164,6 +164,27 @@ list_data = ['ls_id_clk','ls_name_clk','ls_xpath_clk']
 </pre>
 
 ### ScreenShot and ScreenRecorder
-`"screen_recorder":"true"`: It records the testing with fullscreen from beginning to end. It should be impleted only in the setup query. It store in the Test_Video folder path.
+`"screen_recorder":"true"`: It records the testing with fullscreen from beginning to end. It should be impleted only in the setup query. It store in the Test_Video folder path.<br/>
 `"take":"screenshot"`: It takes the screenshot of the task. It can be impletmented at any line of code. It store in the ScreenShots folder path.
 
+### Keywords
+#### Send Keys
+1. `sk`: Send keys. It help to send the keys to the input field. It can be send using two ways using `:sk` and `:sk@data`. If `:sk` is used alone then we should declare the data in another line.<br/>
+2. 'c&sk': It clears the data and send the keys to the input field similar to sk.
+<pre>
+ "fill_password":{
+            "id":"password:sk",
+            "data":"secret_sauce"
+        },
+ "fill_changepassword":{
+            "id":"changepassword:c&sk",
+            "data":"secret_sauce"
+        },
+</pre>
+
+#### Window Controller
+1. `window`: It can be used with any field. It has two parameters the maximize and minimize one.
+2.  set_window_position`: It allows the window to set the position. 
+
+<pre>
+</pre>
