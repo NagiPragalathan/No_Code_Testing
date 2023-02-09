@@ -44,8 +44,7 @@ It is a work in progress, and it is not ready for production.
 </div>
 
 # Usage:
-<hr/>
-# Installation:
+## Installation:
 `pip install nctp`
 
     
