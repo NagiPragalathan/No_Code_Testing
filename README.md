@@ -187,4 +187,12 @@ list_data = ['ls_id_clk','ls_name_clk','ls_xpath_clk']
 2.  set_window_position`: It allows the window to set the position. 
 
 <pre>
+"nav_to_view_cart":{
+            "xpath": "//*[@id='shopping_cart_container']/a:click:minimize",
+            "window":  "maximize"
+        }
+"nav_to_view_cart":{
+            "xpath": "//*[@id='shopping_cart_container']/a:click:minimize",
+            "window":  "minimize"
+        }
 </pre>
