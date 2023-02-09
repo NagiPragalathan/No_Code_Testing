@@ -18,20 +18,26 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/NagiPragalathan/No_Code_Testing?style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/nagipragalathan?style=social)](https://twitter.com/NagiPragalathan)
 
-
 <div align="center">
 
-    NCTP is an No Code Automation Testing in Python using Selenium. It helps the testers to automate their testcases using a json file. It limits the scalability and less complexity to test the application.
-
-https://giphy.com/gifs/quixyofficial-god-help-me-quixy-us-9MbgJKNugBIi6QDwEf
-
-`It's over 9000!!!!!`.
+**NCTP** is an No Code Automation Testing in Python using
+  Selenium. It helps the testers to automate their testcases 
+  using a json file. It limits the scalability and less complexity 
+  to test the application.! 
+  Why? Because `It's over 9000!!!!!`.
 
 It is a work in progress, and it is not ready for production.
 
 [Getting started](#getting-started) • [Supported opcodes](#supported-opcodes) •
 [Build](#build) • [Test](#test) •
-[Report a bug](https://github.com/sayajin-labs/kakarot/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+)
-• [Questions](https://www.newton.so/view?tags=kakarot)
+[Report a bug](https://github.com/)
+• [Questions](https://www.newton.so/view?tags=nctp)
 
 </div>
+
+
+
+    
+
+https://giphy.com/gifs/quixyofficial-god-help-me-quixy-us-9MbgJKNugBIi6QDwEf
+
