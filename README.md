@@ -163,5 +163,7 @@ list_data = ['ls_id_clk','ls_name_clk','ls_xpath_clk']
 }
 </pre>
 
+### ScreenShot and ScreenRecorder
+`"screen_recorder":"true"`: It records the testing with fullscreen from beginning to end. It should be impleted only in the setup query. It store in the Test_Video folder path.
+`"take":"screenshot"`: It takes the screenshot of the task. It can be impletmented at any line of code. It store in the ScreenShots folder path.
 
-    
