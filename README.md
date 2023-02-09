@@ -43,5 +43,9 @@ It is a work in progress, and it is not ready for production.
 <h2> Fear of coding the testing files use the NCTP to releive your complexity and upgrade your automation using NCTP for your application. </h2>
 </div>
 
+# Usage:
+<hr/>
+## Installation:
+`pip install nctp
 
     
