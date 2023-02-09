@@ -86,6 +86,14 @@ It is the keyword mandatory to use in the NCTP.
         10. EdgeService
         11. Opera
 </pre>
+## 3. Get Elements  
+### get_ids = ['id','name','class','xpath']
+<pre>
+'id': It get the id elements using this keyword. 
+'name': It get the name elements using this keyword.
+'class': It get the class elements using this keyword.
+'xpath': It get the xpath elements using this keyword.
+</pre>
 
 
     
