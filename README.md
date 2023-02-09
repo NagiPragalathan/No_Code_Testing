@@ -44,7 +44,10 @@ It is a work in progress, and it is not ready for production.
 </div>
 
 # Usage:
-## Installation:
-`pip install nctp`
+## 1. Installation:
+install using the command: `pip install nctp`
+
+
+
 
     
